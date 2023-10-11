@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #eff4fd;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px; 
+    transition: color 0.4s;
+}
+
+nav ul li a:hover {
+    color: chocolate;
+}
+
+.detail {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 8%;
+    margin-top: 5%;
+    line-height: 1.5; 
+}
+
+.detail h1 {
+    font-size: 40px;
+    color: cadetblue;
+    margin-bottom: 10px;
+    font-weight: bold; 
+}
+
+.detail span {
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+.detail p {
+    color: darkgreen;
+    line-height: 1.6; 
+    margin: 0;
+}
+
+.detail a {
+    background-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.detail a:hover{
+    color:red
+}
+
+.images {
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    border-radius: 50%;
+}
+
+.images img {
+    height: 90%;
+    position: absolute;
+    left: 70%;
+    bottom: 0;
+    transform: translateX(-70%);
+    transition: bottom 1s, left 1s;
+}
+
+.shape {
+    border-radius: 50%;
+}
+
+.icons a {
+    text-decoration: none;
+    color: black;
+    bottom: 10px;
+    right: 0;
+}
+
+.icons ion-icon {
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+
+.icons ion-icon:hover {
+    color: rgb(59, 174, 209);
+}
