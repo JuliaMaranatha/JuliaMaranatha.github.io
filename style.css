@@ -101,10 +101,6 @@ nav ul li a:hover {
     transition: bottom 1s, left 1s;
 }
 
-.shape {
-    border-radius: 50%;
-}
-
 .icons a {
     text-decoration: none;
     color: black;
