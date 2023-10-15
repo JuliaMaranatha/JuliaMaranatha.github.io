@@ -119,3 +119,44 @@ nav ul li a:hover {
 .icons ion-icon:hover {
     color: rgb(59, 174, 209);
 }
+/* Tambahkan media query untuk perangkat seluler */
+@media (max-width: 460px) {
+    nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .detail {
+        margin-left: 0;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .images {
+        width: 100%;
+        position: static;
+        border-radius: 0;
+        margin-top: 20px;
+    }
+
+    .images img {
+        position: static;
+        left: auto;
+        bottom: auto;
+        transform: none;
+    }
+
+    .icons {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .icons ion-icon {
+        margin: 0 15px;
+    }
+}
